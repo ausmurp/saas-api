@@ -9,5 +9,7 @@ namespace SaaSApi.Logic.Models
 
         [Required]
         public string Password { get; set; }
+
+        public bool RememberDevice { get; set; }
     }
 }
